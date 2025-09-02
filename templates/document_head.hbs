@@ -32,3 +32,6 @@
 
   renderFlashNotifications(settings, baseLocale);
 </script>
+{{#is 'home_page'}}
+  <script src="{{asset 'dashboard.js'}}" defer></script>
+{{/is}}
